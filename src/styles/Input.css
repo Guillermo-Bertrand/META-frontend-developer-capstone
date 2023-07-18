@@ -1,0 +1,24 @@
+.input-container {
+    display: grid;
+    gap: 10px;
+    place-items: start;
+    grid-template-rows: repeat(fit-content, minmax(10px, 100px));
+    padding: 10px;
+}
+
+.invalid-input{
+    border: 1px solid red;
+}
+
+.input-label {
+    font-size: large;
+}
+
+.error-label {
+    color: red;
+}
+
+.input-label,
+.error-label {
+    padding-left: 2px;
+}

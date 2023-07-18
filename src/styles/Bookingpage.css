@@ -1,0 +1,57 @@
+.booking-page-container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: 100px 450px;
+    margin: 50px 0px;
+    height: 60vh;
+}
+
+.booking-page-container>section {
+    width: 100%;
+    max-width: 850px;
+}
+
+.inputs-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 100px 50px;
+}
+
+@media (max-width: 600px) {
+
+    .inputs-container {
+        max-width: 95%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.confirmed-title {
+    color: var(--main-2);
+    margin-bottom: 20px;
+}
+
+.confirmed-text-container {
+    display: grid;
+    gap: 30px;
+    place-items: center;
+}
+
+.confirmed-text-container > :nth-child(1) {
+    font-weight: bold;
+}
+
+.confirmed-text-container > button {
+    margin-top: 40px;
+}
+
+.confirmed-icon {
+    font-size: 3rem;
+}
+
+.considerations-list {
+    max-width: 60%;
+    text-align: justify;
+}

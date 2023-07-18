@@ -1,0 +1,11 @@
+.not-found-container {
+    margin: 100px 50px;
+    text-align: center;
+    height: 40vh;
+}
+
+.not-found-container > div >i {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 4rem;
+}

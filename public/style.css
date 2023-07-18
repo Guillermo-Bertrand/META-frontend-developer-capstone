@@ -1,0 +1,59 @@
+:root {
+    /* Define general styles as color palette and font */
+    --main-1: #F4CE14;
+    --main-2: #495e57;
+    --color-1: #A18F5C;
+    --color-2: #F2FEDC;
+    --color-3: #1B3D2F;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    font-family: "jost";
+}
+
+/* For buttons and btn class like React links */
+
+button,
+.btn {
+    border: 2px solid var(--color-3);
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: var(--main-2);
+    text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-color: var(--main-1);
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    width: 220px;
+    border: 2px solid var(--main-1);
+}
+
+select {
+    width: 244px;
+}
+
+i {
+    color: var(--main-2);
+}
+
+h1 {
+    color: var(--main-2);
+}
