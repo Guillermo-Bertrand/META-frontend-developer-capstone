@@ -13,7 +13,7 @@ export default function InputComponent(props) {
         <div className="input-container">
             <label htmlFor={props.name} className="input-label">{props.label}</label>
             <select id={props.name} className={!props.errors[props.name] ? "" : "invalid-input"} {...(props.register(props.name, validators))} >
-                <option selected disabled value="">Select a value</option>
+                <option defaultValue={true} disabled value="">Select a value</option>
                 {
                     props.options.map((option, index) => {
                         return <option key={index} value={option.value}>{option.text}</option>
